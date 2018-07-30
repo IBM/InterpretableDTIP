@@ -1,0 +1,32 @@
+{
+    "name": "BindingDB",
+    "edges": {
+        "positive": {
+            "path": "edges.pos",
+            "delimiter": ",",
+            "directed": false
+        },
+        "negative": {
+            "path": "edges.neg",
+            "delimiter": ",",
+            "directed": false
+        }
+    },
+    "nodes": [
+        {
+            "name": "chem",
+            "representation": "graph",
+            "node_path": "chem",
+            "graph_path": "chem.repr"
+        },
+        {
+            "name": "protein",
+            "representation": "sequence-and-category",
+            "node_path": "protein",
+            "vocab_path": "protein.vocab",
+            "sequence_path": "protein.repr",
+            "category_vocab_path": "protein.goa.vocab",
+            "category_path": "protein.goa.repr"
+        }
+    ]
+}

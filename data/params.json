@@ -1,0 +1,17 @@
+{
+    "hidden_size": 32,
+    "delta": 0.0005,
+    "dropout_p": 0.1,
+    "chem": {
+        "hidden_size": 16,
+        "out_size": 64
+    },
+    "protein": {
+        "embedding_size": 16,
+        "seq_hidden_size": 16,
+        "cat_hidden_size": 16,
+        "num_layers": 1,
+        "out_size": 16,
+        "input_dropout_p": 0
+    }
+}
